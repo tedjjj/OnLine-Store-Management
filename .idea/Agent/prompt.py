@@ -24,7 +24,7 @@ def classifier_prompt() -> str:
     """
 
 
-def product_inquiry_prompt(product_data: str) -> str:  # ✅ type hint added
+def product_inquiry_prompt(product_data: str) -> str: 
     return f"""
     You are a helpful store assistant.
     Answer the customer question using ONLY the product data below.
